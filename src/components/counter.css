@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.counter-container {
+  margin: 100px;
+  padding: 40px;
+  background-image: linear-gradient(beige, rgb(211, 211, 37));
+}
+
+.screen {
+  border: 2px solid #ff6600;
+  margin: 30px;
+  padding: 80px;
+  font-size: xx-large;
+  background-image: linear-gradient(black, red);
+  color: white;
+}
+
+.buttonadd {
+  margin-right: 60px;
+  font-size: xx-large;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.buttonsub {
+  margin-left: 60px;
+  color: white;
+  font-size: xx-large;
+  margin-top: 70px;
+  padding: 20px;
+  background-color: black;
+}
