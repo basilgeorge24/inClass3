@@ -1,41 +1,5 @@
-// import React from "react";
-// import "./counter.css"
-
-// const Counter = () => {
-//   const [countData, setCountData] = React.useState([0]);
-
-//   function addition() {
-//     const newCountAdd = `${countData + 1}`;
-//     setCountData((prevState) => {
-//       return {
-//         ...prevState,
-//         newCountAdd,
-//       };
-//     });
-//   }
-
-//   function subtraction() {
-//     const newCountSub = `${countData - 1}`;
-//     setCountData((prevState) => {
-//       return {
-//         ...prevState,
-//         newCountSub,
-//       };
-//     });
-//   }
-
-//   return (
-//     <div className="counter-container">
-//       <section className="screen">{countData}</section>
-//       <button onClick={addition} className="buttonadd">+</button>
-//       <button onClick={subtraction} className="buttonsub">-</button>
-//     </div>
-//   );
-// };
-
-// export default Counter;
 import React from "react";
-import "./counter.css"
+import "./counter.css";
 
 const Counter = () => {
   const [countData, setCountData] = React.useState(0);
@@ -51,11 +15,14 @@ const Counter = () => {
   return (
     <div className="counter-container">
       <section className="screen">{countData}</section>
-      <button onClick={addition} className="buttonadd">+</button>
-      <button onClick={subtraction} className="buttonsub">-</button>
+      <button onClick={addition} className="buttonadd">
+        +
+      </button>
+      <button onClick={subtraction} className="buttonsub">
+        -
+      </button>
     </div>
   );
 };
 
 export default Counter;
-
